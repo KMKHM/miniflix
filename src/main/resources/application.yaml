@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/miniflix
+    username: miniflix
+    password: miniflix123
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true

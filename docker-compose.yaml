@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: miniflix
+      POSTGRES_USER: miniflix
+      POSTGRES_PASSWORD: miniflix123
+    ports:
+      - "5432:5432"
